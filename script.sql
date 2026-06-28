@@ -177,3 +177,8 @@ from sales;
 
 -- lead(column)
 select *, lead(cost) over(order by cost) as next_cost_row from sales;
+
+-- trunc
+select trunc(12.9876);
+select trunc(12.9876, 2);
+select trunc(12.9876, 0);
