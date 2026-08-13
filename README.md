@@ -1,3 +1,2 @@
-# sql
 # Window functions
 # CTEs
